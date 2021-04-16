@@ -48,12 +48,12 @@ time.sleep(1)
 # повторяем операцию для остальных строк
 os.system('cls')
 print(str2, end='\r')
-time.sleep(1)
+time.sleep(4)
 
 os.system('cls')
 print(str3, end='\r')
-time.sleep(2)
+time.sleep(20)
 
 os.system('cls')
 print(str4, end='\r')
-time.sleep(6)
+time.sleep(5)
