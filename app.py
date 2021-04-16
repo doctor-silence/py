@@ -56,4 +56,4 @@ time.sleep(2)
 
 os.system('cls')
 print(str4, end='\r')
-time.sleep(2)
+time.sleep(6)
