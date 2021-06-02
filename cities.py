@@ -13,13 +13,13 @@ tourists = [{'user': users[0], 'city': cities[2]},
 city = input('Введите город: ')
 
 if city.lower() == tourists[0]['city'].lower():
-    print (f"Турист {tourists[0]['user']['name']} возраст {tourists[0]['user']['age']}. Посетил город {cities[2]}")
+    print (f"Турист {users[0]['name']} возраст {users[0]['age']}. Посетил город {cities[2]}")
 
 elif city.lower() == tourists[1]['city'].lower():
-    print(f"Турист {tourists[1]['user']['name']} возраст {tourists[1]['user']['age']}. Посетил город {cities[0]}")
+    print(f"Турист {users[1]['name']} возраст {users[1]['age']}. Посетил город {cities[0]}")
 
 elif city.lower() == tourists[2]['city'].lower():
-    print(f"Турист {tourists[2]['user']['name']} возраст {tourists[2]['user']['age']}. Посетил город {cities[1]}") 
+    print(f"Турист {users[2]['name']} возраст {users[2]['age']}. Посетил город {cities[1]}") 
     
 else: 
     print('Этот город не посещали туристы')
