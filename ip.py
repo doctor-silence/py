@@ -14,5 +14,5 @@ def main():
     get_info_by_ip(ip=ip)\
 
 
-if __namr__== '__main__':
+if __name__== '__main__':
     main()
